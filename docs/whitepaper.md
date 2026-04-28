@@ -910,7 +910,7 @@ weblander
 
 ## 17. 联系方式
 
-立即访问X@Thekeycoin，2026年Q2见！共建后经济世代。
+立即访问X@keycoinchain，2026年Q2见！共建后经济世代。
 
 ---
 
