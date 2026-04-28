@@ -1,0 +1,16 @@
+{
+  "name": "keycoin-site",
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.28",
+    "@vuepress/plugin-markdown-chart": "^2.0.0-rc.128",
+    "@vuepress/theme-default": "^2.0.0-rc.128",
+    "sass-embedded": "^1.99.0",
+    "vuepress": "next",
+    "vuepress-plugin-md-enhance": "next"
+  }
+}

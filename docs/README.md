@@ -1,0 +1,19 @@
+---
+home: true
+heroText: KeyCoin — 后经济世代
+tagline: 电力驱动的AI丰裕经济体系
+actions:
+  - text: 📜 阅读白皮书
+    link: /whitepaper
+    type: primary
+  - text: 💻 查看合约
+    link: /contracts
+    type: secondary
+features:
+  - title: ⚡ 电力锚定
+    details: Key Coin 1:1 锚定每日实际发电量，让每一度电成为可流通、可抵扣、可激励的真实资产。
+  - title: 🤖 AI 丰裕
+    details: AI 算力网络接手生产，人类专注创造与意义。85% 收益直接分配给创造者。
+  - title: 🛡️ 量子安全承诺
+    details: 在量子计算机威胁 ECDSA 之前，主动迁移至后量子密码学。承诺已写入链上智能合约。
+footer: Copyright © 2026 KeyCoin. 后经济世代。
