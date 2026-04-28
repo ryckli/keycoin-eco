@@ -4,6 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
 
 export default defineUserConfig({
+  base: '/keycoin-eco/',
   lang: 'zh-CN',
   title: 'KeyCoin — 后经济世代',
   description: '电力驱动的AI丰裕经济体系',
