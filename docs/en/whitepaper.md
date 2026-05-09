@@ -1,4 +1,3 @@
-```markdown
 # The Post-Economic Era: A Whitepaper on an Electricity-Driven AI Abundance Economy
 
 **Version:** 1.0
