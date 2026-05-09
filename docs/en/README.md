@@ -22,7 +22,7 @@ features:
   - title: 🗳️ 90-99% Consensus
     details: Major decisions pursue 90-99% approval through multi-round voting with amendment iteration — not 51% majority rule. Governance power is time-weighted for long-term holders.
   - title: 🛡️ Quantum-Safe
-    details: Irrevocable commitment written on-chain: the entire network will migrate to Post-Quantum Cryptography (CRYSTALS-Dilithium, CRYSTALS-Kyber) before quantum computers threaten ECDSA.
+    details: "Irrevocable commitment written on-chain: the entire network will migrate to Post-Quantum Cryptography (CRYSTALS-Dilithium, CRYSTALS-Kyber) before quantum computers threaten ECDSA."
 footer: © 2026 KeyCoin · liruiqi003@gmail.com · @keycoinchain
 ---
 
