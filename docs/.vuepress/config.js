@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
+import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 
 export default defineUserConfig({
   base: '/keycoin-eco/',
@@ -70,6 +71,10 @@ export default defineUserConfig({
   plugins: [
     markdownChartPlugin({
       mermaid: true,
+    }),
+    mdEnhancePlugin({
+      mermaid: true,
+      katex: true,
     }),
   ],
 })
