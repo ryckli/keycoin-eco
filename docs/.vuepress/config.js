@@ -12,12 +12,12 @@ export default defineUserConfig({
   // ========== 双语配置 ==========
   locales: {
     '/': {
-      lang: 'zh-CN',
+      lang: '简体中文',
       title: 'KeyCoin — 后经济世代',
       description: '电力驱动的AI丰裕经济体系',
     },
     '/en/': {
-      lang: 'en-US',
+      lang: 'English',
       title: 'KeyCoin — Post-Economy Era',
       description: 'AI-driven electricity-abundance economic system',
     },
