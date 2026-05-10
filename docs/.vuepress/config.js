@@ -12,12 +12,12 @@ export default defineUserConfig({
   // ========== 双语配置 ==========
   locales: {
     '/': {
-      lang: '简体中文',
+      lang: 'zh-CN',
       title: 'KeyCoin — 后经济世代',
       description: '电力驱动的AI丰裕经济体系',
     },
     '/en/': {
-      lang: 'English',
+      lang: 'en-US',
       title: 'KeyCoin — Post-Economy Era',
       description: 'AI-driven electricity-abundance economic system',
     },
@@ -26,6 +26,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     locales: {
       '/': {
+        selectLanguageName: '简体中文',
         navbar: [
           { text: '白皮书', link: '/whitepaper' },
           { text: '合约', link: '/contracts' },
@@ -46,6 +47,7 @@ export default defineUserConfig({
         },
       },
       '/en/': {
+        selectLanguageName: 'English',
         navbar: [
           { text: 'Whitepaper', link: '/en/whitepaper' },
           { text: 'Contracts', link: '/en/contracts' },
