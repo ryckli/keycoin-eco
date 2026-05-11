@@ -11,7 +11,7 @@ actions:
     type: secondary
 features:
   - title: ⚡ 电力锚定
-    details: Key Coin 1:1 锚定每日实际发电量，让每一度电成为可流通、可抵扣、可激励的真实资产。
+    details: Key Coin 1:1 锚定每日实际发电量，让每一度电成为可流通、可抵扣、可激励、可抵押的真实资产。
   - title: 🤖 AI 丰裕
     details: AI 算力网络接手生产，人类专注创造与意义。85% 收益直接分配给创造者。
   - title: 🛡️ 量子安全承诺
