@@ -1,0 +1,1 @@
+var e=`/keycoin-eco/assets/keycoin-logo-C4McJesP.png`;export{e as t};
