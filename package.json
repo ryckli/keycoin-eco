@@ -10,7 +10,10 @@
     "@vuepress/plugin-markdown-chart": "^2.0.0-rc.128",
     "@vuepress/theme-default": "^2.0.0-rc.128",
     "sass-embedded": "^1.99.0",
-    "vuepress": "next",
-    "vuepress-plugin-md-enhance": "next"
+    "vuepress": "next"
+  },
+  "dependencies": {
+    "katex": "^0.16.46",
+    "markdown-it-katex": "^2.0.3"
   }
 }

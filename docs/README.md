@@ -1,19 +1,108 @@
 ---
 home: true
-heroText: KeyCoin — 后经济世代
-tagline: 电力驱动的AI丰裕经济体系
+heroText: 电力即货币
+tagline: 创造即收益
 actions:
-  - text: 📜 阅读白皮书
-    link: /whitepaper
+  - text: 阅读白皮书
+    link: /whitepaper.html
     type: primary
-  - text: 💻 查看合约
-    link: /contracts
+  - text: 加入社区
+    link: https://x.com/keycoinchain
     type: secondary
-features:
-  - title: ⚡ 电力锚定
-    details: Key Coin 1:1 锚定每日实际发电量，让每一度电成为可流通、可抵扣、可激励、可抵押的真实资产。
-  - title: 🤖 AI 丰裕
-    details: AI 算力网络接手生产，人类专注创造与意义。85% 收益直接分配给创造者。
-  - title: 🛡️ 量子安全承诺
-    details: 在量子计算机威胁 ECDSA 之前，主动迁移至后量子密码学。承诺已写入链上智能合约。
-footer: Copyright © 2026 KeyCoin. 后经济世代。
+features: []
+---
+
+![KeyCoin Logo](./keycoin-logo.png)
+
+<div class="hero-label">后经济世代 · 2026 Q2 主网上线</div>
+
+<div class="data-bar">
+  <div class="data-card">
+    <span class="data-number">4</span>
+    <span class="data-label">主网合约</span>
+  </div>
+  <div class="data-card">
+    <span class="data-number">21.47M</span>
+    <span class="data-label">KEY 总供应</span>
+  </div>
+  <div class="data-card">
+    <span class="data-number">9/9</span>
+    <span class="data-label">理事会席位</span>
+  </div>
+  <div class="data-card">
+    <span class="data-number">1:1</span>
+    <span class="data-label">电力锚定</span>
+  </div>
+</div>
+
+<div class="section-title">价值主张</div>
+
+<div class="value-grid">
+  <div class="value-card">
+    <div class="value-icon">⚡</div>
+    <h3>电力即货币</h3>
+    <p>每一度清洁能源发电铸造一枚 Key Coin。货币不再锚定债务预期，而是真实生产力。能源价值在全球自由流通。</p>
+  </div>
+  <div class="value-card">
+    <div class="value-icon">🤖</div>
+    <h3>AI 赋能创造</h3>
+    <p>AI 中立评估贡献，85% 奖励直达创造者。不是平台抽成，而是按贡献分配。让每一次创造都被看见、被回报。</p>
+  </div>
+  <div class="value-card">
+    <div class="value-icon">🏛️</div>
+    <h3>长期主义治理</h3>
+    <p>仅锁定 2 年以上的持有者拥有投票权。追求 90-99% 共识，而非 51% 暴力多数。杜绝短视博弈。</p>
+  </div>
+</div>
+
+<div class="section-title">如何运作</div>
+
+<div class="step-flow">
+  <div class="step">🏭 清洁能源发电<br><small style="font-weight:400;color:rgba(255,255,255,0.5);">DePIN 节点上报发电数据</small></div>
+  <div class="step-arrow">→</div>
+  <div class="step">🔮 Oracle 多源验证<br><small style="font-weight:400;color:rgba(255,255,255,0.5);">3+ 独立 Oracle 交叉验证<br>偏差 >5% 自动罚没</small></div>
+  <div class="step-arrow">→</div>
+  <div class="step">⚡ 智能合约铸造<br><small style="font-weight:400;color:rgba(255,255,255,0.5);">每日 UTC 00:00 自动执行</small></div>
+  <div class="step-arrow">→</div>
+  <div class="step">💰 分配<br><small style="font-weight:400;color:rgba(255,255,255,0.5);">70% 抵扣电费<br>30% 奖励创造者</small></div>
+</div>
+
+<div class="section-title">路线图</div>
+
+<div class="roadmap-timeline">
+  <div class="roadmap-phase">
+    <div class="phase-year">2026 Q2</div>
+    <div class="phase-title">电力奠基</div>
+    <small>基础代币上线<br>白皮书发布</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2027</div>
+    <div class="phase-title">算力觉醒</div>
+    <small>100+ 节点<br>100K+ 用户</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2028</div>
+    <div class="phase-title">代币众筹</div>
+    <small>AI 分配系统解锁</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2028-2030</div>
+    <div class="phase-title">基础设施转换</div>
+    <small>物理层大规模部署</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2030+</div>
+    <div class="phase-title">完全自治</div>
+    <small>电力支配人类社会</small>
+  </div>
+</div>
+
+<div class="cta-section">
+  <h2>共建后经济世代</h2>
+  <p>2026 Q2 基础代币已上线以太坊主网，4 合约开源验证，9 人理事会就位。<br/>欢迎投资者、技术从业者、创造者、能源企业加入。</p>
+  <div class="cta-links">
+    <a href="https://x.com/keycoinchain" target="_blank">X @keycoinchain</a>
+    <a href="https://t.me/ryckli_jorcy" target="_blank">TG @ryckli_jorcy</a>
+    <a href="mailto:liruiqi003@gmail.com">liruiqi003@gmail.com</a>
+  </div>
+</div>

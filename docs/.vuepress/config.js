@@ -2,38 +2,63 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
-import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
+import { createRequire } from 'node:module'
+
+const require = createRequire(import.meta.url)
 
 export default defineUserConfig({
   base: '/keycoin-eco/',
 
-  bundler: viteBundler(),
+  head: [
+    ['meta', { name: 'description', content: 'Key Coin — 1:1 锚定每日发电量。电力即货币，创造即收益。' }],
+    ['meta', { property: 'og:title', content: 'KeyCoin — 后经济世代' }],
+    ['meta', { property: 'og:description', content: '电力即货币，创造即收益 — 1:1 锚定每日发电量，打破债务循环' }],
+    ['meta', { property: 'og:image', content: '/keycoin-eco/keycoin-logo.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['link', { rel: 'icon', href: '/keycoin-eco/keycoin-logo.png' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }],
+  ],
 
-  // ========== 顶层 locales（控制下拉选项名称）==========
   locales: {
     '/': {
       lang: 'zh-CN',
       title: 'KeyCoin — 后经济世代',
-      description: '电力驱动的AI丰裕经济体系',
-      selectLanguageName: '中文',           // ← 下拉选项显示
+      description: '电力即货币，创造即收益 — 1:1 锚定每日发电量，打破债务循环',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'KeyCoin — Post-Economy Era',
-      description: 'AI-driven electricity-abundance economic system',
-      selectLanguageName: 'English',        // ← 下拉选项显示
+      title: 'KeyCoin — Post-Economic Era',
+      description: 'Power is Money, Creation is Income — 1:1 pegged to daily power generation',
     },
   },
 
-  // ========== theme locales（控制按钮标题 + 导航栏）==========
+  bundler: viteBundler(),
+
+  extendsMarkdown: (md) => {
+    md.use(require('markdown-it-katex'), { throwOnError: false, errorColor: '#cc0000' })
+  },
+
   theme: defaultTheme({
+    logo: '/keycoin-eco/keycoin-logo.png',
+    repo: 'ryckli/keycoin-eco',
+    docsDir: 'docs',
+    darkMode: false,
+    colorMode: 'dark',
+    colorModeSwitch: false,
     locales: {
       '/': {
-        selectLanguageName: '中文',         // ← 按钮标题
+        selectLanguageName: '中文',
+        editLink: false,
+        lastUpdated: false,
         navbar: [
-          { text: '白皮书', link: '/whitepaper' },
-          { text: '合约', link: '/contracts' },
-          { text: '路线图', link: '/roadmap' },
+          { text: '首页', link: '/' },
+          { text: '白皮书', link: '/whitepaper.html' },
+          { text: '代币', link: '/token.html' },
+          { text: '技术', link: '/tech.html' },
+          { text: '治理', link: '/governance.html' },
+          { text: '路线图', link: '/roadmap.html' },
+          { text: 'FAQ', link: '/faq.html' },
         ],
         sidebar: {
           '/': [
@@ -42,29 +67,41 @@ export default defineUserConfig({
               children: [
                 '/README.md',
                 '/whitepaper.md',
-                '/contracts.md',
+                '/token.md',
+                '/tech.md',
+                '/governance.md',
                 '/roadmap.md',
+                '/faq.md',
               ],
             },
           ],
         },
       },
       '/en/': {
-        selectLanguageName: 'English',      // ← 按钮标题
+        selectLanguageName: 'English',
+        editLink: false,
+        lastUpdated: false,
         navbar: [
-          { text: 'Whitepaper', link: '/en/whitepaper' },
-          { text: 'Contracts', link: '/en/contracts' },
-          { text: 'Roadmap', link: '/en/roadmap' },
+          { text: 'Home', link: '/en/' },
+          { text: 'Whitepaper', link: '/en/whitepaper.html' },
+          { text: 'Token', link: '/en/token.html' },
+          { text: 'Tech', link: '/en/tech.html' },
+          { text: 'Governance', link: '/en/governance.html' },
+          { text: 'Roadmap', link: '/en/roadmap.html' },
+          { text: 'FAQ', link: '/en/faq.html' },
         ],
         sidebar: {
           '/en/': [
             {
-              text: 'Documents',
+              text: 'Docs',
               children: [
                 '/en/README.md',
                 '/en/whitepaper.md',
-                '/en/contracts.md',
+                '/en/token.md',
+                '/en/tech.md',
+                '/en/governance.md',
                 '/en/roadmap.md',
+                '/en/faq.md',
               ],
             },
           ],
@@ -76,10 +113,6 @@ export default defineUserConfig({
   plugins: [
     markdownChartPlugin({
       mermaid: true,
-    }),
-    mdEnhancePlugin({
-      mermaid: true,
-      katex: true,
     }),
   ],
 })

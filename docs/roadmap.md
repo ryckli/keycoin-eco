@@ -1,18 +1,34 @@
 # 路线图
 
-## 2026 Q2
-- Key Coin 基础代币上线
-- 白皮书公开发布
-
-## 2026 Q3-Q4
-- 首批清洁能源试点
-- 社区融资启动
-
-## 2027
-- 算力觉醒：100+ 节点，100K+ 用户
-
-## 2028
-- 代币众筹，AI 分配系统解锁
-
-## 2030+
-- 完全自治：电力支配人类社会
+<div class="roadmap-timeline">
+  <div class="roadmap-phase">
+    <div class="phase-year">2026 Q2</div>
+    <div class="phase-title">⚡ 电力奠基</div>
+    <small>基础代币上线以太坊主网<br/>白皮书公开发布<br/>4 合约开源验证<br/>9 人理事会就位</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2026 Q3-Q4</div>
+    <div class="phase-title">🔌 能源试点</div>
+    <small>首批清洁能源节点部署<br/>Oracle 网络扩容<br/>社区融资启动<br/>Uniswap LP 上线</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2027</div>
+    <div class="phase-title">🧠 算力觉醒</div>
+    <small>100+ 节点上线<br/>100K+ 用户<br/>AI 贡献评估系统 Beta<br/>跨链桥原型</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2028</div>
+    <div class="phase-title">🚀 代币众筹</div>
+    <small>AI 分配系统解锁<br/>定制生产平台 Alpha<br/>去中心化身份系统<br/>治理代币完全分发</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2028-2030</div>
+    <div class="phase-title">🏗️ 基础设施转换</div>
+    <small>物理层大规模部署<br/>智能电表普及<br/>自动化工厂上线<br/>全球能源网络互联</small>
+  </div>
+  <div class="roadmap-phase">
+    <div class="phase-year">2030+</div>
+    <div class="phase-title">🌐 完全自治</div>
+    <small>DAO 全面接管<br/>电力支配人类社会<br/>后经济世代全面到来</small>
+  </div>
+</div>
