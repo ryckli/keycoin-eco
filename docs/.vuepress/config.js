@@ -7,7 +7,7 @@ import { createRequire } from 'node:module'
 const require = createRequire(import.meta.url)
 
 export default defineUserConfig({
-  base: '/keycoin-eco/',
+  base: '/',
 
   head: [
     ['meta', { name: 'description', content: 'Key Coin — 1:1 锚定每日发电量。电力即货币，创造即收益。' }],
